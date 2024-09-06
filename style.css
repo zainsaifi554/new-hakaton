@@ -10,20 +10,20 @@
 
 .main{
     margin-top: 30px;
-    height: 400px;
-
+   max-height: 400px;
+justify-content: center;
     display: flex;
-    justify-content: space-around;
+   gap: 100px;
     width: 100%;
-    padding-left: 200px;
-    padding-right: 200px;
+padding-left: 400px;
+    background: aqua;
   
 }
 .text-1{
 
     width: 40%;
-    height: 300px;
-
+    max-height: 400px;
+background: green;
     margin-top: 50px;
 
 }
@@ -41,6 +41,8 @@ width: 40%;
 
 .pic-1 svg{
     height: 400px;
+    max-width: 400px;
+    background: yellow;
     
 }
    .row-nav{
@@ -53,9 +55,51 @@ width: 40%;
 
 
 
-   @media screen and (max-width:){
-    h1{
-        font-size: 20px;
+   @media screen and (max-width:1400px){
+    .main{
+        padding: 0;
+        padding-left: 50px;
+        display: flex;
+        justify-content: center;
     }
     
+
    }
+
+@media  screen and (max-width:900px) {
+    
+.text-1 h1{
+    font-size: 20px;
+}
+
+}
+@media  screen and (max-width:600px) {
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+ gap: 0;
+ padding: 0;
+ padding-left: 0;
+    max-height:  900px;
+    justify-content: center;
+    align-items: center;
+}
+.text-1{
+    width: 90%;
+}
+.pic-1{
+    width: 90%;
+
+}
+.text-2{
+    width: 90%;
+}
+.pic-1 svg{
+    width: 1500px;
+
+}
+.row-nav svg{
+   width: 100px;
+}
+}
