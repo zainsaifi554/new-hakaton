@@ -16,14 +16,14 @@ justify-content: center;
    gap: 100px;
     width: 100%;
 padding-left: 400px;
-    background: aqua;
+    
   
 }
 .text-1{
 
     width: 40%;
     max-height: 400px;
-background: green;
+
     margin-top: 50px;
 
 }
@@ -42,7 +42,7 @@ width: 40%;
 .pic-1 svg{
     height: 400px;
     max-width: 400px;
-    background: yellow;
+
     
 }
    .row-nav{
